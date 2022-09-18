@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+body {
+    font-family: "Open Sans", sans-serif !important;
+}
+a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: "Open Sans", sans-serif !important;
+}
+
+button {
+    background: transparent;
+    border: 0px;
+}
+
+//  background-color
+.bg-red {
+    background-color: #c32424 !important;
+}
+.bg-white {
+    background-color: #e5e5e5 !important;
+}
+
+// color
+
+.color-white {
+    color: #ffffff !important;
+}
+.color-gray {
+    color: #9f9f9f !important;
+}
+.color-black {
+    color: #000000 !important;
+}
+.color-red {
+    color: #c32424 !important;
+}
+
+// font-weight
+
+.font-weight-800 {
+    font-weight: 800;
+}
+.font-weight-700 {
+    font-weight: 700;
+}
+.font-weight-600 {
+    font-weight: 600;
+}
+.font-weight-500 {
+    font-weight: 500;
+}
+.font-weight-400 {
+    font-weight: 400;
+}
+.font-weight-300 {
+    font-weight: 300;
+}
+
+// font-size
+.font-size-18 {
+    font-size: 1.12rem;
+}
+
+.font-size-24 {
+    font-size: 1.5rem;
+}
+.font-size-36 {
+    font-size: 2.25rem;
+}
+
+// line-height
+.line-height-25{
+    line-height: 1.6rem;
+}
+.line-height-33{
+    line-height: 2rem;
+}
+.line-height-49{
+    line-height: 3rem;
+}
