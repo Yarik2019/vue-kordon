@@ -48,6 +48,12 @@ button {
     color: #c32424 !important;
 }
 
+
+
+//  font-family
+.font-family-open-sans{
+    font-family: "Open Sans", sans-serif !important;
+}
 // font-weight
 
 .font-weight-800 {
@@ -69,25 +75,35 @@ button {
     font-weight: 300;
 }
 
-// font-size
-.font-size-18 {
-    font-size: 1.12rem;
-}
-
-.font-size-24 {
-    font-size: 1.5rem;
-}
+// font-size 
 .font-size-36 {
     font-size: 2.25rem;
 }
+.font-size-24 {
+    font-size: 1.5rem;
+}
+.font-size-20{
+    font-size: 1.25rem;
+}
+.font-size-18 {
+    font-size: 1.12rem;
+}
+.font-size-14 {
+    font-size: 0.87rem;
+}
+
+
 
 // line-height
-.line-height-25{
-    line-height: 1.6rem;
+.line-height-49{
+    line-height: 3rem;
 }
 .line-height-33{
     line-height: 2rem;
 }
-.line-height-49{
-    line-height: 3rem;
+.line-height-27{
+    line-height: 1.7rem;
+}
+.line-height-25{
+    line-height: 1.6rem;
 }

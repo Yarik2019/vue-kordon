@@ -1,5 +1,5 @@
 <template>
-    <div class="photos-section">
+    <div class="photos-section bg-white">
         <div class="container">
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 pb-3 pb-lg-5">
                 <div class="col col-md-6 col-lg-4 mb-4">
@@ -86,7 +86,6 @@ export default {
 <style lang="scss">
 .photos-section {
     padding-top: 12.5rem;
-    background: #E5E5E5 !important;
 
     .photos-block {
         width: 100%;
@@ -131,7 +130,7 @@ export default {
 
 @media (max-width: 992px) {
     .photos-section {
-        padding-top: 7.5rem;
+        padding-top: 6rem;
     }
 }
 </style>

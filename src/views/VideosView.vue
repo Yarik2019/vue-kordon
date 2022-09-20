@@ -1,5 +1,5 @@
 <template>
-    <div class="video-section">
+    <div class="video-section bg-white">
         <div class="container">
             <div class="row pb-3 pb-lg-4">
                 <div class="col-md-6 mb-3">
@@ -36,7 +36,6 @@ export default {
 <style lang="scss">
 .video-section {
     padding-top: 12.5rem;
-    background: #E5E5E5;
 
     .video {
         width: 100%;
@@ -46,7 +45,7 @@ export default {
 
 @media (max-width: 992px) {
     .video-section {
-        padding-top: 7.5rem;
+        padding-top: 6rem;
     }
 }
 </style>

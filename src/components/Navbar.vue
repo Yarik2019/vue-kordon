@@ -1,6 +1,6 @@
 <template>
 <div class="bg-menu fixed-top">
-        <nav class="navbar navbar-expand-lg  d-flex flex-lg-column">
+        <nav class="navbar navbar-expand-lg  d-flex flex-lg-column navbar-menu">
             <div>
                 <router-link class="d-lg-flex justify-content-lg-center" to="/"><div class="logo pl-lg-5"></div></router-link>   
                 <button @click="ClcikMenu()" class="nav__toggel  d-lg-none" :class="menu ? 'active' : ''">
@@ -77,8 +77,6 @@ export default {
     &:focus {
         outline: 0;
     }
-
-
 
     &__item {
         display: block;
@@ -168,6 +166,10 @@ export default {
     .bg-menu {
         background: #000000 !important;
     }
+    .navbar-menu{
+        position: relative;
+        z-index: 1000;
+    }
 
     .logo {
         background-image: url('../assets/img/logo_white.svg');
@@ -185,15 +187,11 @@ export default {
         right: 0;
         z-index: 10;
         opacity: 0;
-
+        transform: translateY(-200%);
         border-bottom-left-radius: 10%;
         border-bottom-right-radius: 10%;
         background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 157%);
         transition: 0.4s linear;
-
-    }
-
-    .menu_list {
         &>ul {
             width: 100%;
 
@@ -214,6 +212,7 @@ export default {
     .menu_list.active {
         display: flex;
         opacity: 1;
+        transform: translateY(0%);
     }
 }
 </style>
