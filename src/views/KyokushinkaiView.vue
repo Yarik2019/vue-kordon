@@ -1,10 +1,31 @@
 <template>
-    <div>
-        KyokushinkaiView
+    <div class="bg-white">
+        <KyokushinkaiNavbar/>
+        <router-view v-slot="{ Component }">
+            <transition name="fade" mode="out-in">
+                <component :is="Component" />
+            </transition>
+        </router-view>
     </div>
 </template>
 <script>
+import KyokushinkaiNavbar from '../components/KyokushinkaiNavbar'    
 export default {
-    name:"KyokushinkaiView"
+    name: "KyokushinkaiView",
+    components:{
+        KyokushinkaiNavbar
+    }
 }
 </script>
+<style lang="scss">
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+}
+
+</style>

@@ -22,15 +22,6 @@ const routes = [
     logo:" background-image: url('../assets/img/logo_white.svg');",
   },
   {
-    path: "/about",
-    name: "about",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
-  },
-  {
     path: "/lessons-schedule",
     name: "LessonsSchedule",
     // route level code-splitting
@@ -79,7 +70,7 @@ const routes = [
         component: PhilosophyView,
       },
       {
-        path: "mas-oyama",
+        path: "/mas-oyama",
         name: "MasOyama",
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
@@ -87,7 +78,7 @@ const routes = [
         component: MasOyama,
       },
       {
-        path: "kumite-kata",
+        path: "/kumite-kata",
         name: "KumiteKata",
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
@@ -95,7 +86,7 @@ const routes = [
         component: KumiteKata,
       },
       {
-        path: "the-training-process-0f-masutatsu-oyama",
+        path: "/the-training-process-0f-masutatsu-oyama",
         name: "TheTrainingProcessOfMasutatsuOyama",
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route

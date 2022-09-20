@@ -5,7 +5,7 @@
                 <div class="row row-cols-1 row-cols-lg-2 pb-3">
                     <div class="col">
                         <div class="card mb-4 p-3 shadow w-100">
-                            <img src="../assets/img/header_img.png" class="card-img-top" alt="...">
+                            <img src="../assets/img/img_head.png" class="card-img-top rounded-3" alt="...">
                             <div class="mt-3">
                                 <h5 class=" color-black font-weight-700 font-size-18 line-height-25 font-family-open-sans ">Відкритий кубок м.Львова з кіокушинкай карате 11.10.2020 року
                                 </h5>
@@ -24,7 +24,7 @@
                     </div>
                     <div class="col">
                         <div class="card mb-4 p-3 shadow w-100">
-                            <img src="../assets/img/header_img.png" class="card-img-top" alt="...">
+                            <img src="../assets/img/img_head.png" class="card-img-top rounded-3" alt="...">
                             <div class="mt-3">
                                 <h5 class=" color-black font-weight-700 font-size-18 line-height-25 font-family-open-sans ">Відкритий кубок м.Львова з кіокушинкай карате 11.10.2020 року
                                 </h5>
@@ -43,7 +43,7 @@
                     </div>
                     <div class="col">
                         <div class="card mb-4 p-3 shadow w-100">
-                            <img src="../assets/img/header_img.png" class="card-img-top" alt="...">
+                            <img src="../assets/img/img_head.png" class="card-img-top rounded-3" alt="...">
                             <div class="mt-3">
                                 <h5 class=" color-black font-weight-700 font-size-18 line-height-25 font-family-open-sans ">Відкритий кубок м.Львова з кіокушинкай карате 11.10.2020 року
                                 </h5>

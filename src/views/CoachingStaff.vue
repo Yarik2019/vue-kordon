@@ -67,7 +67,6 @@
                                     class="color-black font-weight-400 font-size-18 line-height-25 font-family-open-sans">
                                     Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem
                                     Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века</p>
-
                             </div>
                         </div>
                     </div>
@@ -101,7 +100,6 @@
                                     class="color-black font-weight-400 font-size-18 line-height-25 font-family-open-sans">
                                     Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem
                                     Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века</p>
-
                             </div>
                         </div>
                     </div>

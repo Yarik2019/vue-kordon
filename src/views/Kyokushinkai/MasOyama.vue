@@ -1,6 +1,6 @@
 <template>
     <div>
-        KumiteKata
+        KumiteKatafdfd
     </div>
 </template>
 <script>
