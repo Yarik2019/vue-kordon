@@ -8,6 +8,7 @@
                 <router-link to="/the-training-process-0f-masutatsu-oyama" class="nav-link kyokushinkai__link">
                     Тренувальний процес Масутацу
                     Оями</router-link>
+                    
             </div>
         </div>
     </div>
